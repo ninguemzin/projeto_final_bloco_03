@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className=" xs w-full flex justify-center py-4 bg-green-500 text-white shadow-lg shadow-black-50">
+      <div className=" xs w-full flex justify-center py-4 bg-teal-600 text-white shadow-xl shadow-black-500">
         <div className="container flex justify-between items-center text-lg">
           <div className="flex items-center gap-2">
             <img

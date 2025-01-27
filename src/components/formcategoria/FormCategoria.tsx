@@ -97,7 +97,7 @@ function FormCategoria() {
           />
         </div>
         <button
-          className="rounded text-slate-100 bg-green-500 
+          className="rounded text-slate-100 bg-emerald-500 
                                hover:bg-indigo-800 w-1/2 py-2 mx-auto flex justify-center"
           type="submit"
         >
