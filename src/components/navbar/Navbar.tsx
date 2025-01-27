@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <>
-      <div className="w-full flex justify-center py-4 bg-green-500 text-white">
+      <div className=" xs w-full flex justify-center py-4 bg-green-500 text-white shadow-lg shadow-black-50">
         <div className="container flex justify-between items-center text-lg">
           <div className="flex items-center gap-2">
             <img
@@ -16,7 +16,9 @@ function Navbar() {
             </Link>
           </div>
           <div className="flex gap-4 items-center">
-            <span>Produto</span>
+            <Link to="/home" className="hover:underline">
+              Home
+            </Link>
             <Link to="/categoria" className="hover:underline">
               Categorias
             </Link>
